@@ -1,0 +1,25 @@
+h1{
+ font-family: 'Luckiest Guy', cursive;
+ font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+button {
+	font-family: 'Bangers', cursive;
+	width: 80px;
+	height: 60px;
+
+}
+body,html{
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
