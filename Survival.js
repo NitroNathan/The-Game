@@ -151,40 +151,6 @@ var ant5 = prompt("wat doe je? je brengt je vrouw veilig naar het CDC? of je gaa
 if (ant5 == 'brengen'){
 
 alert("je hebt besloten om je vrouw te beschermen en veilig naar het CDC te brengen voor een vaccin..")
-}
- else if (ant5 == 'eigen pad'){
-
-alert("je kiest er voor om je eigen pad te gaan en je vrouw achter te laten met onbekende mensen....")
-
-alert("je gaat je eigen pad en wenst je vrouw al het geluk. je vrouw zegt niks en kijkt je aan samen met de 2 mannen die naast haar staan.")
-
-alert("je pakt de auto waar je mee aankwam en besluit je vader en moeder te gaan zoeken")
-
-alert("de kijkt in de acteruit rij spiegel en ziet je vrouw met de mannen je na kijken...je beseft nog steeds niet helemaal wat er is gebeurd.")
-
-alert("na een lange rit stop je bij een tankstation je ziet daar 1 auto staan met allemaal zombies erom heen. je loopt via de achterkant van het tankstation en slaat met een ijzeren buis op een hek.")
-
-alert("de zombies rennen met een volle snelheid op het hek af en jij trekt de man uit de auto en sleept hem het tankstation in.")
-
-var v8 = prompt ("de man beweegt niet meer maar hij ademt nog wel. wat doe je? je gaat hem reanimeren of je laat hem liggen? (antwoord met 'reanimeren'of 'laten liggen'.") 
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- if (ant5 == 'brengen'){
 
 	alert("samen met de 2 mannen en je vrouw loop je richting de auto. de auto is gepanserd en zombie bestendig. je zoekt op de kaarten uit  waar het CDC ligt.")
 
@@ -211,35 +177,53 @@ var v8 = prompt ("de man beweegt niet meer maar hij ademt nog wel. wat doe je? j
 
     else if (v6a1k2 = 'hoek geven')
     	alert("je geeft je zombie vrouw een hoek en ze gaat knock-out op de grond. toch is je vrouw onsterfelijk en pakken de 2 bewakers van je vrouw je en bijten je dood..")
+return false;
 }
 
-else{
-	alert("das niet het goede antwoord!")
+
+
+ if  (ant5 == 'eigen pad'){
+
+alert("je kiest er voor om je eigen pad te gaan en je vrouw achter te laten met onbekende mensen....")
+
+alert("je gaat je eigen pad en wenst je vrouw al het geluk. je vrouw zegt niks en kijkt je aan samen met de 2 mannen die naast haar staan.")
+
+alert("je pakt de auto waar je mee aankwam en besluit je vader en moeder te gaan zoeken")
+
+alert("de kijkt in de acteruit rij spiegel en ziet je vrouw met de mannen je na kijken...je beseft nog steeds niet helemaal wat er is gebeurd.")
+
+alert("na een lange rit stop je bij een tankstation je ziet daar 1 auto staan met allemaal zombies erom heen. je loopt via de achterkant van het tankstation en slaat met een ijzeren buis op een hek.")
+
+alert("de zombies rennen met een volle snelheid op het hek af en jij trekt de man uit de auto en sleept hem het tankstation in.")
+
+var v8 = prompt ("de man beweegt niet meer maar hij ademt nog wel. wat doe je? je gaat hem reanimeren of je laat hem liggen? (antwoord met 'reanimeren'of 'laten liggen'.") 
+
+}
+
+if (v8 == 'reanimeren'){
+	alert("je reanimeert de man en hij wordt wakker. hij verteld dat hij al 2 weken in de auto zit en dat zijn water en voedsel op was.")
+
+	alert("je weet dat je op de achterbank nog wat voedsel en een flesje water heb liggen...")
+}
+ if (v8 == 'laten liggen'){
+alert("je vertrouwd de man niet.. en besluit om hem te laten liggen. je wil weg gaan maar voordat je opstaat bijt de man je in je arm en wordt je een drager van het virus.")
 	return false;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+	var v9 = prompt("of je geeft de man het flesje water en het voedsel of je zegt dat je geen voedsel en water meer hebt (antwoord met 'geven' of 'niks geven'.)")
+
+	if (v9 == 'geven'){
+		alert("goed gedaan! de man in de auto was een professor van het CDC en geeft je een vaccin tegen het zombie virus.je hebt de game gewonnen!")
+	}
+
+	if (v9 == 'niks geven'){
+		alert("de man slaat je op je hoofd en laat de zombies van buiten op je af komen...")
+	}
+
+
+
+
+
+
 
 
 
